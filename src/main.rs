@@ -1,6 +1,7 @@
 mod catalog;
 mod graph;
 mod product;
+mod recommender;
 
 use catalog::Catalog;
 use product::Product;
