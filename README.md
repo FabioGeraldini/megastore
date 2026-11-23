@@ -214,14 +214,10 @@ Executado com `cargo run --release -- bench`, em \[Ryzen 7 7800X3D] com \[32] GB
 
 |---|---|---|---|---|---|---|
 
-| 1.000 | 500 | 1.550 | 5.000 | 528,50 µs | 21,71 µs | 1,72 µs |
-
-| 10.000 | 5.000 | 15.050 | 50.000 | 5,42 ms | 19,48 µs | 1,80 µs |
-
-| 100.000 | 50.000 | 150.050 | 500.000 | 58,96 ms | 24,61 µs | 2,17 µs |
-
-| 1.000.000 | 500.000 | 1.500.050 | 5.000.000 | 1,13 s | 45,79 µs | 3,97 µs |
-
+| 1.000 | 500 | 1.550 | 5.000 | 458,00 µs | 17,51 µs | 1,68 µs |
+| 10.000 | 5.000 | 15.050 | 50.000 | 4,87 ms | 19,29 µs | 1,72 µs |
+| 100.000 | 50.000 | 150.050 | 500.000 | 56,88 ms | 23,94 µs | 2,03 µs |
+| 1.000.000 | 500.000 | 1.500.050 | 5.000.000 | 1,17 s | 42,89 µs | 3,77 µs |
 
 
 A construção cresce de forma aproximadamente linear com o número de arestas. O tempo de recomendação cresce pouco, pois o BFS é limitado em profundidade e só explora a vizinhança do cliente. Nos dados sintéticos essa vizinhança é pequena e uniforme; em dados reais, produtos muito populares aumentam o custo, e o pior caso é O(V + E).
