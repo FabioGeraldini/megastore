@@ -1,4 +1,5 @@
 mod catalog;
+mod graph;
 mod product;
 
 use catalog::Catalog;
